@@ -51,7 +51,7 @@
         repeatIcon: 'fa fa-repeat',
         maxLoadCount: 3,
         localImages: function () {
-            return 'images/Pic' + Math.round(Math.random() * 4) + '.jpg';
+            return 'images/Pic' + Math.round(Math.random() * 4) + '.png';
         },
         verify: function (arr, url) {
             var ret = false;
